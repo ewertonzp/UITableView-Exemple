@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C700E3C015156CE5003C4341 /* Thing.m in Sources */ = {isa = PBXBuildFile; fileRef = C700E3BF15156CE5003C4341 /* Thing.m */; };
 		C756055A15156A6B0078D461 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C756055915156A6B0078D461 /* UIKit.framework */; };
 		C756055C15156A6B0078D461 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C756055B15156A6B0078D461 /* Foundation.framework */; };
 		C756055E15156A6B0078D461 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C756055D15156A6B0078D461 /* CoreGraphics.framework */; };
 		C756056415156A6B0078D461 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C756056215156A6B0078D461 /* InfoPlist.strings */; };
 		C756056615156A6B0078D461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C756056515156A6B0078D461 /* main.m */; };
 		C756056A15156A6B0078D461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C756056915156A6B0078D461 /* AppDelegate.m */; };
+		C756057115156A890078D461 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C756057015156A890078D461 /* MainStoryboard.storyboard */; };
+		C756057415156B390078D461 /* ThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C756057315156B390078D461 /* ThingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C700E3BE15156CE5003C4341 /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thing.h; sourceTree = "<group>"; };
+		C700E3BF15156CE5003C4341 /* Thing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thing.m; sourceTree = "<group>"; };
 		C756055515156A6B0078D461 /* TableViewExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C756055915156A6B0078D461 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C756055B15156A6B0078D461 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C756055D15156A6B0078D461 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C756056115156A6B0078D461 /* TableViewExemple-Info.plist */ = {isa = PBXFileReference; path = "TableViewExemple-Info.plist"; sourceTree = "<group>"; };
+		C756056115156A6B0078D461 /* TableViewExemple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewExemple-Info.plist"; sourceTree = "<group>"; };
 		C756056315156A6B0078D461 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C756056515156A6B0078D461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C756056715156A6B0078D461 /* TableViewExemple-Prefix.pch */ = {isa = PBXFileReference; path = "TableViewExemple-Prefix.pch"; sourceTree = "<group>"; };
-		C756056815156A6B0078D461 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C756056715156A6B0078D461 /* TableViewExemple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewExemple-Prefix.pch"; sourceTree = "<group>"; };
+		C756056815156A6B0078D461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C756056915156A6B0078D461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C756057015156A890078D461 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C756057215156B390078D461 /* ThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingsViewController.h; sourceTree = "<group>"; };
+		C756057315156B390078D461 /* ThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 			children = (
 				C756056815156A6B0078D461 /* AppDelegate.h */,
 				C756056915156A6B0078D461 /* AppDelegate.m */,
+				C756057215156B390078D461 /* ThingsViewController.h */,
+				C756057315156B390078D461 /* ThingsViewController.m */,
+				C700E3BE15156CE5003C4341 /* Thing.h */,
+				C700E3BF15156CE5003C4341 /* Thing.m */,
 				C756056015156A6B0078D461 /* Supporting Files */,
 			);
 			path = TableViewExemple;
@@ -86,6 +98,7 @@
 				C756056215156A6B0078D461 /* InfoPlist.strings */,
 				C756056515156A6B0078D461 /* main.m */,
 				C756056715156A6B0078D461 /* TableViewExemple-Prefix.pch */,
+				C756057015156A890078D461 /* MainStoryboard.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C756056415156A6B0078D461 /* InfoPlist.strings in Resources */,
+				C756057115156A890078D461 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +168,8 @@
 			files = (
 				C756056615156A6B0078D461 /* main.m in Sources */,
 				C756056A15156A6B0078D461 /* AppDelegate.m in Sources */,
+				C756057415156B390078D461 /* ThingsViewController.m in Sources */,
+				C700E3C015156CE5003C4341 /* Thing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +273,7 @@
 				C756056F15156A6B0078D461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
